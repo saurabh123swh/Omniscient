@@ -1,0 +1,192 @@
+
+.image{
+  width:70%;
+  border-radius:6px;
+  border-color:rgb(173, 172, 172);
+  border-style:solid;
+  border-width:6px;
+  transition:scale 0.15s;
+}
+
+.image:hover{
+  scale:1.2;
+}
+
+.top-overview{
+  display:grid;
+  grid-template-columns:0.5fr 1fr;
+  background-color:rgb(65, 49, 49);
+  border:none;
+  border-radius:4px;
+  margin-top: 4px;
+}
+
+.top-overview-left-section{
+ 
+  padding:15px 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-overview-right-section{
+  padding-bottom: 12px;
+}
+
+
+.manhwa-name{
+  color:white;
+  font-size:35px;
+  font-weight:700;
+  text-align:left;
+  padding-top:25px;
+  padding-bottom:18px;
+  
+}
+
+.manhwa-discription{
+  color:white;
+  font-size:13px;
+  font-weight:500;
+  line-height: 18px;
+  padding-bottom:26px;
+}
+
+.overview-geners{
+  padding:0px 12px;
+}
+
+.first-last-buttons{
+  padding:6px 6px;
+  border-radius:4px;
+  border-width:2px;
+  border-color:rgb(202, 201, 201);
+  border-style:solid;
+  color:white;
+  background-color:rgba(58, 55, 55, 0.822);
+  font-size:14px;
+  font-weight:500;
+  margin:28px 8px;
+  cursor:pointer;
+  transition:color background-color 0.20s;
+}
+
+.first-last-buttons:hover{
+  color:rgb(228, 228, 228);
+  background-color: rgb(152, 145, 209);
+}
+
+.first-last-buttons:active{
+  background-color: rgb(143, 101, 241);
+}
+
+.geners-buttons{
+  font-size:16px;
+  color:rgb(230, 230, 230);
+  background-color:rgb(44, 44, 44);
+  border-style:solid;
+  border-width:2px;
+  border-color:rgb(185, 185, 164);
+  padding:4px 4px;
+  opacity:0.9;
+  border-radius:4px;
+  cursor:pointer;
+  transition:opacity border-color 0.25s;
+}
+
+.geners-buttons:hover{
+  border-color:rgb(173, 172, 172);
+  opacity:0.4;
+}
+
+.chapter-publishing-date{
+  color:grey;
+  font-size:12px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.overview-heading{
+  color:rgb(255, 255, 255);
+  font-size:28px;
+  width:100%;
+  font-weight:500;
+}
+
+.overview-subheading{
+  color:rgb(201, 198, 198);
+  width:100%;
+}
+
+.top-overview-right-section-part-2{
+  display:grid;
+  grid-template-columns:0.7fr 0.3fr;
+
+}
+
+.top-overview-right-section-part-2-1{
+  padding-left:12px;
+}
+
+.overview-chapter-info{
+  color:white;
+  font-size:25px;
+  font-weight:700;
+  font-style:italic;
+  background-color:rgb(131, 127, 127);
+  padding:12px 25px;
+  border:none;
+  border-radius:26px;
+  margin:12px 0px;
+}
+
+.chapter-buttons{
+  display:block;
+  color:white;
+  width:100%;
+  font-size:16px;
+  background-color:rgb(33, 37, 41);
+  border-style:solid;
+  border-width:2px;
+  border-color:rgb(139, 134, 134);
+  border-radius:6px;
+  padding:8px 42px;
+  margin:6px 0px;
+  cursor:pointer;
+  text-align: left;
+  transition:opacity background-color 0.50s;
+}
+
+.chapter-buttons:hover{
+  background-color:rgb(109, 107, 107);
+}
+
+.chapter-buttons:active{
+  opacity:0.3;
+  background-color:rgb (243, 242, 242);
+}
+
+.chapter-scroll{
+  border-width: 4px;
+  border-color:rgb(22, 24, 21);
+  border-style:solid;
+  border-radius:6px;
+  width:auto;
+  overflow-x: hidden;
+  height:350px;
+  padding:6px 18px;
+  margin:25px 4px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.chapter-scroll::-webkit-scrollbar{
+  width:8px;  
+}
+
+.chapter-scroll::-webkit-scrollbar-thumb{
+  background: linear-gradient(#642bff, #ff22e6);
+  border-radius: 4px;
+}
