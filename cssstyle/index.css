@@ -88,3 +88,10 @@ a{
   border-radius:6px;
   margin-top:4px;
 }
+
+
+@media (max-width:1000px) {
+  body{
+    padding: 0 60px;
+  }
+}
